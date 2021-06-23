@@ -4,7 +4,6 @@ import calc
 
 class calcWindow(QMainWindow):
     def __init__(self):
-        print("In Calc UI")
         QMainWindow.__init__(self)
         self.ui = calc.Ui_MainWindow()
         self.ui.setupUi(self)
