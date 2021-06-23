@@ -1,0 +1,2 @@
+without main class: pyuic5 calc.ui -o calc.py
+with main class: pyuic5 -x calc.ui -o calc.py
